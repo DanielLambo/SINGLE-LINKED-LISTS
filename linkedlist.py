@@ -42,3 +42,22 @@ class Linkedlist:
             print(current.data, end=" -> ")
             current = current.next
         print("None")
+
+##example##
+# Create a linked list
+my_list = Linkedlist()
+
+# Insert elements at the beginning
+my_list.insertion_at_beginning(10)
+my_list.insertion_at_beginning(20)
+
+# Insert elements at the end
+my_list.insertion_at_the_end(30)
+my_list.insertion_at_the_end(40)
+
+# Insert element at a specific location
+my_list.insertion_at_a_specific_location(25, 2)
+
+# Display the linked list
+my_list.display()
+
